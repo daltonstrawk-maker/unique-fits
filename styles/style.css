@@ -5,5 +5,73 @@
 
 body {
   font-family: "Outfit", sans-serif;
-  background-image: "3243f8cc6e75d67fd64c0f4c7af46b75.jpg";
+  background-image: url("/assets/img-1.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.menu-links ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-links ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.textbox {
+  margin-top: 100px;
+}
+
+.text-title {
+  font-size: 60px;
+  text-align: left;
+}
+
+p {
+  font-size: large;
+  color: rgb(182, 72, 25);
+  font-weight: 400;
+}
+
+.text-title .key-wrd {
+  color: rgb(182, 72, 25);
+}
+
+.text-title span:last-child {
+  color: rgb(182, 72, 25);
+}
+
+footer {
+  width: 100%;
+  margin-top: auto;
+  text-align: center;
+  padding: 20px;
 }
